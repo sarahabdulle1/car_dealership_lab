@@ -1,6 +1,11 @@
 const car = require('./car');
 
-const bentley = new car("bentley outlet", 500, "manual");
+//before each 
+let car;
+
+beforeEach(() => {
+    bentley = new car("bentley outlet", 500, "manual");
+})
 
 describe('car functionality', () => {
     test.skip('can get car price', () => {

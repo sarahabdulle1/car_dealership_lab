@@ -6,7 +6,7 @@ const Dealership = function (name, maxNumberOfCars){
     this.carStock = []; 
 }
 
-module.exports = Dealership;
+module.exports = Dealership; //?
 
 // create dealership object
 const carCentre = new Dealership ("Car Centre", 30, null);
