@@ -1,7 +1,7 @@
 const car = require('./car');
 
 //before each 
-let car;
+let bentley;
 
 beforeEach(() => {
     bentley = new car("bentley outlet", 500, "manual");
